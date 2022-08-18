@@ -129,6 +129,8 @@ header {
 }
 
 .basket__button {
+    display: flex;
+    position: relative;
     cursor: pointer;
     font-size: 26px;
     font-weight: 500;
@@ -141,8 +143,18 @@ header {
 .basket__button img {
     width: 38px;
     height: 35px;
-    margin-right: 15px;
+    margin-right: 25px;
     vertical-align: bottom;
+}
+
+.count {
+    background-color: #fff;
+    padding: 0 5px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 16px;
+    left: 60px;
+    top: 25px;
 }
 
 .create__button {
