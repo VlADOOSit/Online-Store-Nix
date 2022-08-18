@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-top: 21px;
+}
+
+.header__container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+@media (min-width: 2200px) {
+    .header__container {
+        max-width: 1900px;
+    }
+}
+
+@media (max-width: 1619px) {
+    .header__container {
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 1519px) {
+    .header__container {
+        max-width: 1400px;
+    }
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu__wrapper {
+    background-color: #EAEAEA;
+}
+
+.menu {
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+.menu nav {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 16px;;
+    border: 2px solid #000000;
+    border-radius: 61px;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li {
+    list-style-type: none;
+    font-size: 26px;
+    
+}
+
+.menu nav ul li a {
+    padding-top: 10px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all .2s ease-in-out;
+}
+
+.menu nav ul li a:hover {
+    background-color: #EAEAEA;
+    border-radius: 61px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 18px;
+}
+
+.info .phone__number {
+    font-size: 26px;
+}
+
+.phone__number a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.phone__number a:hover {
+    border-bottom: 2px solid #000;
+} 
+
+.email a {
+    font-weight: bold;
+}
+
+.email a:hover {
+    border-bottom: 2px solid #000;
+}
