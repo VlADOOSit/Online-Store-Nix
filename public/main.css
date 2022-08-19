@@ -4,6 +4,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*header styles*/
+
 header {
     margin-top: 21px;
 }
@@ -30,6 +32,13 @@ header {
         max-width: 1400px;
     }
 }
+
+@media (max-width: 1419px) {
+    .header__container {
+        max-width: 1350px;
+    }
+}
+
 
 .contacts {
     display: flex;
@@ -193,4 +202,129 @@ header {
 
 .bottom__menu nav ul li a:hover {
     background-color: #EAEAEA;
+}
+
+/*main styles*/
+
+.row {
+    display: flex;
+    margin-top: 67px;
+}
+
+.sidebar {
+    width: 470px;
+    height: 100px;
+    background-color: #F4F4F4;
+}
+
+.main {
+    width: 1100px;
+    margin-left: 52px;
+}
+
+@media (min-width: 2200px) {
+    .main {
+        width: 1700px;
+    }
+    .sidebar {
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 1619px) {
+    .main {
+        width: 1100px;
+    }
+    .sidebar {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1519px) {
+    .main {
+        width: 1070px;
+    }
+    .sidebar {
+        width: 270px;
+    }
+}
+
+@media (max-width: 1419px) {
+    .main {
+        max-width: 1270px;
+        margin: 0 auto;
+    }
+    .sidebar {
+        display: none;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: calc((100% - 900px)/2);;
+}
+
+@media (min-width: 2200px) {
+    .cards {
+        column-gap: 120px;
+    }
+}
+
+.card__wrapper {
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.card__link {
+    text-decoration: none;
+    color: black
+}
+
+.card__img img {
+    width: 270px;
+}
+
+.card__img {
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    padding: 25px;
+}
+
+.card__info {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.size__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size__value {
+    font-size: 26px;
+}
+
+.price__value {
+    font-size: 36px;
+}
+
+.add__basket {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    width: 100%;
+    font-size: 26px;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 0;
 }
