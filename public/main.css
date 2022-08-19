@@ -222,7 +222,17 @@ header {
     margin-left: 52px;
 }
 
-@media (min-width: 2200px) {
+@media (min-width: 3001px) {
+    .main {
+        margin-left: 0;
+        width: 2100px;
+    }
+    .main__section {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 2200px) and (max-width: 3000px) {
     .main {
         width: 1700px;
     }
