@@ -275,6 +275,11 @@ header {
 .card__wrapper {
     margin-bottom: 50px;
     width: 300px;
+    transition: transform .2s ease-in;
+}
+
+.card__wrapper:hover {
+    transform: translateY(-10px);
 }
 
 .card__link {
