@@ -212,7 +212,7 @@ header {
 }
 
 .sidebar {
-    width: 470px;
+    width: 380px;
     background-color: #F4F4F4;
     height: fit-content;
 }
@@ -352,6 +352,17 @@ header {
     padding: 5px 0;
 }
 
+.more__btn {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 98px;
+    font-size: 54px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
 
 /*sidebar*/
 
@@ -410,3 +421,5 @@ header {
     text-decoration: none;
     color: #000;
 }
+
+
