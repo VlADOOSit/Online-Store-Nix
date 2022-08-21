@@ -468,6 +468,7 @@ header {
     border: none;
     padding: 10px 20px;
     font-size: 28px;
+    cursor: pointer;
 }
 
 .creator__text {
