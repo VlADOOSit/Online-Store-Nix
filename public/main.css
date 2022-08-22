@@ -627,13 +627,15 @@ header {
         display: none;
     }
 
-    .creator__block {
-        display: none;
-    }
-
     .more__btn {
         font-size: 14px;
     }
+} 
+
+@media (max-width: 900px) {
+   .creator__block {
+    display: none;
+   }
 } 
 
 @media (max-width: 399px) { 
