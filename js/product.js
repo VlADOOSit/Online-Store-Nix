@@ -14,3 +14,27 @@ for (let i = 0; i < smallItems.length; i++) {
         }
     })
 }
+
+let slider = document.getElementsByClassName('slider')[0];
+let sliderLine = document.getElementsByClassName('slider__line')[0];
+let position = 0;
+
+document.getElementById('next').addEventListener('click', function() {
+    sliderLine.style.transition = 'all ease 1s';
+    position += 990;
+    if (position > slider.offsetWidth * 2) {
+        sliderLine.style.transition = 'none';
+        position = 0;
+    }
+    sliderLine.style.left = -position + 'px';
+});
+
+document.getElementById('prev').addEventListener('click', function() {
+    sliderLine.style.transition = 'all ease 1s';
+    position -= 990;
+    if (position < 0) {
+        sliderLine.style.transition = 'none';
+        position = slider.offsetWidth * 2;
+    }
+    sliderLine.style.left = -position + 'px';
+});
