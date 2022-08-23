@@ -263,6 +263,7 @@ header {
     max-width: 1600px;
     margin: 0 auto;
     margin-top: 74px;
+    display: flex;
 }
 
 .img__slider {
@@ -334,4 +335,252 @@ header {
     .product__container {
         max-width: 1350px;
     }
+}
+
+.info__product {
+    margin-left: 28px;
+}
+
+.product__type {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.product__name {
+    font-size: 38px;
+    margin-top: 5px;
+}
+
+.product__price {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.now__price {
+    font-size: 38px;
+}
+
+.discount__price {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.size__head {
+    display: flex;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.t_size {
+    margin-left: 14px;
+}
+
+.size__name {
+    font-weight: 300;
+}
+
+.real__radio:checked + .custom__radio{
+    box-shadow: 2px 4px 37px rgba(0, 0, 0, 0.35);
+    border: 1px solid #868686;
+    background-color: #868686;
+}
+
+.real__radio {
+    display: none;
+}
+
+.custom__radio {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    border: 1px solid #000000;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 7px 0;
+    margin-right: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.radio__block {
+    max-width: 670px;
+}
+
+.color__head {
+    display: flex;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.color__value {
+    margin-left: 14px;
+}
+
+.color__name {
+    font-weight: 300;
+}
+
+.color-radio__block {
+    margin-top: 10px;
+}
+
+.color-real__radio:checked + .color-custom__radio{
+    border: 3px solid rgb(70, 70, 255);
+}
+
+.color-real__radio {
+    display: none;
+}
+
+.color-custom__radio {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgb(133, 133, 133);
+    margin-right: 6px;
+}
+
+
+.compound__head {
+    display: flex;
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.compound__value {
+    margin-left: 14px;
+}
+
+.compound__name {
+    font-weight: 300;
+}
+
+.basket__btn {
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 80px;
+    font-size: 26px;
+    margin-top: 23px;
+}
+
+
+.popular__product {
+    margin-top: 80px;
+    background-color: #EAEAEA;
+}
+
+.popular-product__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+@media (min-width: 2200px) {
+    .popular-product__container{
+        max-width: 1900px;
+    }
+}
+
+@media (max-width: 1619px) {
+    .popular-product__container {
+        max-width: 1360px;
+    }
+}
+
+@media (max-width: 1519px) {
+    .popular-product__container {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1419px) {
+    .popular-product__container {
+        max-width: 1350px;
+    }
+}
+
+
+.popular__head {
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.popular__cards {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.popular-card__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.product-card__img {
+    padding: 60px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    height: 350px;
+}
+
+.product-card__img img {
+    width: 300px;
+    height: 350px;
+}
+
+.popular__price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    align-items: center;
+    margin-top: 14px;
+    
+}
+
+.popular-price__value {
+    font-size: 38px;
+}
+
+.popular__basket {
+    font-size: 26px;
+    padding: 5px 15px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.popular-card__wrapper {
+    position: relative;
+}
+
+.flags {
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.flag__item {
+    background: #EAEAEA;
+    border-radius: 53px;
+    padding: 6px 20px;
+    font-size: 26px;
+    text-align: right;
+    display: inline-block;
+    margin-bottom: 10px;
 }
