@@ -1,3 +1,5 @@
+
+//change img product
 let smallItems = document.getElementsByClassName('small__item');
 let mainItem = document.getElementsByClassName('main__item')[0];
 
@@ -15,6 +17,8 @@ for (let i = 0; i < smallItems.length; i++) {
     })
 }
 
+
+//slider
 let slider = document.getElementsByClassName('slider')[0];
 let sliderLine = document.getElementsByClassName('slider__line')[0];
 let position = 0;
@@ -22,7 +26,7 @@ let position = 0;
 document.getElementById('next').addEventListener('click', function() {
     sliderLine.style.transition = 'all ease 1s';
     position += 990;
-    if (position > slider.offsetWidth * 2) {
+    if (position > slider.offsetWidth * 4) {
         sliderLine.style.transition = 'none';
         position = 0;
     }
@@ -34,7 +38,7 @@ document.getElementById('prev').addEventListener('click', function() {
     position -= 990;
     if (position < 0) {
         sliderLine.style.transition = 'none';
-        position = slider.offsetWidth * 2;
+        position = slider.offsetWidth * 4;
     }
     sliderLine.style.left = -position + 'px';
 });
