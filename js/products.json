@@ -1,121 +1,189 @@
 [
     {
         "id": 1,
-        "name": "Мужская футболка",
-        "size": "40-60",
+        "name": "Мужская футболка red",
+        "size": "50-52",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "red",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 2,
-        "name": "Мужская футболка",
-        "size": "40-60",
+        "name": "Женская green",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "green",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "woman",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 3,
-        "name": "Мужская футболка",
-        "size": "40-60",
+        "name": "Женская футболка",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "woman",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 4,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "44-46",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "two",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 5,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "46-48",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 6,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "50-52",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "gray",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 7,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 8,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "blue",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 9,
         "name": "Мужская футболка",
-        "size": "40-60",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 10,
         "name": "Мужская футболка1",
-        "size": "40-60",
+        "size": "48-50",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
+    },
+    {
+        "id": 11,
+        "name": "Мужская футболка2",
+        "size": "40-42",
+        "price": 150,
+        "color": "green",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 12,
-        "name": "Мужская футболка2",
-        "size": "40-60",
+        "name": "Мужская футболка3",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "red",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 13,
-        "name": "Мужская футболка3",
-        "size": "40-60",
+        "name": "Мужская футболка4",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 14,
-        "name": "Мужская футболка4",
-        "size": "40-60",
+        "name": "Мужская футболка5",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 15,
-        "name": "Мужская футболка5",
-        "size": "40-60",
+        "name": "Мужская футболка6",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 16,
-        "name": "Мужская футболка6",
-        "size": "40-60",
+        "name": "Мужская футболка7",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "white",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     },
     {
         "id": 17,
-        "name": "Мужская футболка7",
-        "size": "40-60",
+        "name": "Мужская футболка8 black",
+        "size": "40-42",
         "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
-    },
-    {
-        "id": 18,
-        "name": "Мужская футболка8",
-        "size": "40-60",
-        "price": 150,
-        "img": "../public/img/cards/tshirt.jpg"
+        "color": "black",
+        "img": "../public/img/cards/tshirt.jpg",
+        "gender": "man",
+        "type": "with",
+        "print": "none"
     }
 ]
