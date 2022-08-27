@@ -83,7 +83,7 @@ async function getProducts() {
     
     //filter
     let check = document.getElementsByTagName('input');
-    
+
     for (let i = 0; i < check.length; i++) {
         check[i].addEventListener('click', function() {
             document.getElementsByClassName('cards')[0].innerHTML = '';
@@ -130,7 +130,6 @@ async function getProducts() {
             fillPage(resultArr);
         });
     }
-
 }
 
 getProducts();
