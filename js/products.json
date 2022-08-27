@@ -1,0 +1,121 @@
+[
+    {
+        "id": 1,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Мужская футболка",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Мужская футболка1",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Мужская футболка2",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Мужская футболка3",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Мужская футболка4",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Мужская футболка5",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Мужская футболка6",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Мужская футболка7",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Мужская футболка8",
+        "size": "40-60",
+        "price": 150,
+        "img": "../public/img/cards/tshirt.jpg"
+    }
+]
