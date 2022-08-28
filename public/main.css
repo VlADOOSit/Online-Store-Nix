@@ -645,4 +645,22 @@ header {
     .card__img img {
         width: 220px;
     }
-} 
+}
+
+.product__wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.product__item {
+    display: flex;
+}
+
+.product__img img{
+    width: 100px;
+}
+
+

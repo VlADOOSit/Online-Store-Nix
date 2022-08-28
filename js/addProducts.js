@@ -74,7 +74,7 @@ function fillPage(arr, mainArr) {
                 e.target.disabled = true;
             }
         }
-        addToBascket(mainArr, true); 
+        addToBascket(mainArr, 1); 
     };
 }
 
@@ -133,10 +133,10 @@ async function getProducts() {
                 }
             }
             fillPage(resultArr, prodArr);
-            addToBascket(prodArr, true);
+            addToBascket(prodArr, 1);
         });
     }
-    addToBascket(prodArr, true);
+    addToBascket(prodArr, 1);
 }
     
 getProducts();

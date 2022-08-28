@@ -13,7 +13,8 @@ async function getProducts() {
 
     const prodArr = await response.json();
 
-    addToBascket(prodArr, false);
+    addToBascket(prodArr, 0);
+    addToBascket(prodArr, 2);
 }
 
 getProducts();

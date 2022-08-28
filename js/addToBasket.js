@@ -10,12 +10,16 @@ function getProductById(arr, id) {
 export function addToBascket(arr, productFlag) {
     //add to basket
     let basketBtns;
-    if (productFlag) {
+    if (productFlag == 1) {
         basketBtns = document.getElementsByClassName('add__basket');
     }
-    else {
+    else if(productFlag == 0) {
         basketBtns = [document.getElementById('basket_main')];
     }
+    else {
+        basketBtns = document.getElementsByClassName('popular__basket');
+    }
+    
 
     if (localStorage.getItem('len') == null) {
         localStorage.setItem('len', 0);
