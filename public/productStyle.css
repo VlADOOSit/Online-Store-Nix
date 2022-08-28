@@ -718,7 +718,6 @@ header {
 
 .slider__item {
     background: #FFFFFF;
-    box-shadow: 2px 4px 27px rgba(0, 0, 0, 0.25);
     border-radius: 36px;
     padding-top: 40px;
     padding-left: 90px;
@@ -908,4 +907,28 @@ header {
 .second__line a {
     text-decoration: none;
     color: #000;
+}
+
+.adaptive__header {
+    text-align: center;
+    background-color: #535353;
+}
+
+.adaptive__header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.adaptive__header li {
+    padding: 20px 0;
+}
+
+.adaptive__header li:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.header-toggle {
+    display: none;
 }

@@ -245,6 +245,10 @@ header {
     margin-left: 80px;
 }
 
+.adptive__side {
+    display: none;
+}
+
 @media (min-width: 3001px) {
     .main {
         margin-left: 0;
@@ -297,7 +301,19 @@ header {
         margin: 0 auto;
     }
     .sidebar {
-        display: none;
+        position: fixed;
+        transition: transform .3s ease-in;
+        bottom: 0;
+        overflow-y: scroll;
+        height: 100%;
+    }
+    .sidebar-toggle {
+        position: fixed;
+        transform: translateX(-150%);
+        
+    }
+    .adptive__side {
+        display: block;
     }
 }
 
@@ -663,4 +679,30 @@ header {
     width: 100px;
 }
 
+.adptive__side {
+    text-align: right;
+}
 
+.adaptive__header {
+    text-align: center;
+    background-color: #535353;
+}
+
+.adaptive__header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.adaptive__header li {
+    padding: 20px 0;
+}
+
+.adaptive__header li:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.header-toggle {
+    display: none;
+}

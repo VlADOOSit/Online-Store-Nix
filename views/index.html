@@ -74,15 +74,23 @@
             </div>
         </div>
         <div class="adaptive__wrapper">
-            <button class="menu__btn"><img src="../public/img/icons/menu.png" alt="menu"></button>
+            <button id="menu__btn" class="menu__btn"><img src="../public/img/icons/menu.png" alt="menu"></button>
             <button class="adaptive__basket"><img src="../public/img/icons/storage.png" alt="storage"></button>
+        </div>
+        <div class="adaptive__header header-toggle">
+            <ul>
+                <li><a href="#">Каталог одежды</a></li>
+                <li><a href="#">Экипировка</a></li>
+                <li><a href="#">Форма под заказ</a></li>
+                <li><a href="#">Создать свой дизайн</a></li>
+            </ul>
         </div>
     </header>
 
     <section class="main__section">
         <div class="container">
             <div class="row">
-                <div class="sidebar">
+                <div class="sidebar sidebar-toggle">
                     <div class="sidebar__wrapper">
                         <div class="check__block">
                             <div class="check__head">Пол:</div>
@@ -243,6 +251,11 @@
                     </div>
                 </div>
                 <div class="main">
+                    <div class="adptive__side">
+                        <button id="show__side">
+                            Filter
+                        </button>
+                    </div>
                     <div class="cards">
                         
                         
@@ -346,5 +359,6 @@
 
     <script type="module" src="../js/addProducts.js"></script>
     <script src="../js/animateFilter.js"></script>
+    <script src="../js/adaptive.js"></script>
 </body>
 </html>         

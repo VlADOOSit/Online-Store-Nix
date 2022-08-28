@@ -55,7 +55,7 @@
                 <div class="bottom__menu">
                     <nav>
                         <ul>
-                            <li><a href="../views/index.html">Каталог одежды</a></li>
+                            <li><a href="#">Каталог одежды</a></li>
                             <li><a href="#">Экипировка</a></li>
                             <li><a href="#">Форма под заказ</a></li>
                             <li><button class="create__button">Создать свой дизайн</button></li>
@@ -65,8 +65,16 @@
             </div>
         </div>
         <div class="adaptive__wrapper">
-            <button class="menu__btn"><img src="../public/img/icons/menu.png" alt="menu"></button>
+            <button id="menu__btn" class="menu__btn"><img src="../public/img/icons/menu.png" alt="menu"></button>
             <button class="adaptive__basket"><img src="../public/img/icons/storage.png" alt="storage"></button>
+        </div>
+        <div class="adaptive__header header-toggle">
+            <ul>
+                <li><a href="../views/index.html">Каталог одежды</a></li>
+                <li><a href="#">Экипировка</a></li>
+                <li><a href="#">Форма под заказ</a></li>
+                <li><a href="#">Создать свой дизайн</a></li>
+            </ul>
         </div>
     </header>
     <div class="products">
@@ -74,5 +82,6 @@
         
     </div>
     <script src="../js/showBasket.js"></script>
+    <script src="../js/adaptive.js"></script>
 </body>
 </html>
