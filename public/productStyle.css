@@ -763,6 +763,9 @@ header {
 .small-block__item:nth-child(3n+1) {
     background-image: url(../public/img/cards/girl.png);
 }
+.small-block__item:nth-child(2) {
+    background-image: url(../public/img/cards/pngegg.png);
+}
 
 .text__block {
     margin-top: 20px;
