@@ -20,4 +20,23 @@ for (let i = 0; i < smallItems.length; i++) {
 }
 
 
+//for slider
+let smalBlock = document.getElementsByClassName('small-block__item');
 
+
+for (let i = 0; i < smalBlock.length; i++) {
+    smalBlock[i].addEventListener('click', function () {
+        let style = this.currentStyle || window.getComputedStyle(this, false);
+        let bi = style.backgroundImage.slice(4, -1).replace(/"/g, "");
+
+        this.parentElement.previousElementSibling.firstElementChild.style.backgroundImage = `url("${bi}")`
+        this.style.opacity = 0.5;
+        this.style.backgroundColor = '#000';
+        for(let j = 0; j < smalBlock.length; j++) {
+            if (j != i) {
+                smalBlock[j].style.opacity = 1;
+                smalBlock[j].style.backgroundColor = '#E9E9E9';
+            }
+        }
+    })
+}

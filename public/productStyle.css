@@ -731,12 +731,14 @@ header {
 }
 
 .main-img__block span {
+    cursor: pointer;
     width: 180px;
     height: 180px;
     text-align: center;
     border-radius: 50%;
     display: inline-block;
-    background-color: #C4C4C4;
+    background-image: url(../public/img/cards/girl.png);
+    border: solid 1px #000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -745,15 +747,21 @@ header {
 .small-img__block {
     text-align: center;
 }
-.small-img__block span {
+.small-block__item {
+    cursor: pointer;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     display: inline-block;
-    background-color: #C4C4C4;
+    background-image: url(../public/img/cards/tshirt.jpg);
+    border: solid 1px #000;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.small-block__item:nth-child(3n+1) {
+    background-image: url(../public/img/cards/girl.png);
 }
 
 .text__block {
