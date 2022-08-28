@@ -932,3 +932,99 @@ header {
 .header-toggle {
     display: none;
 }
+
+@media (max-width: 1071px) {
+    .product__container {
+        display: block;
+        text-align: center;
+    }
+    .sport__container {
+        display: none;
+    }
+    .img__slider {
+        display: flex;
+        align-items: center;
+        margin-left: 32px;
+    }
+   
+}
+
+@media (max-width: 749px) {
+
+    .small__imgs img {
+        width: 90px;
+        height: 100px;
+       
+    }
+    .main__img img {
+        width: 500px;
+        height: 540px;
+    }
+
+    .discribing__product {
+        display: none;
+    }
+    .popular__cards {
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 660px) {
+
+    .small__imgs img {
+        width: 60px;
+        height: 70px;
+       
+    }
+    .main__img img {
+        width: 440px;
+        height: 480px;
+    }
+
+    .popular__cards {
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .small__imgs img {
+        width: 30px;
+        height: 40px;
+       
+    }
+    .main__img img {
+        width: 220px;
+        height: 260px;
+    }
+
+    .popular__cards {
+        margin-left: 13px;
+    }
+}
+
+@media (max-width: 460px) {
+
+    .small__imgs img {
+        width: 30px;
+        height: 40px;
+       
+    }
+    .main__img img {
+        width: 220px;
+        height: 260px;
+    }
+
+    .product-card__img img {
+        width: 200px;
+        height: 250px;
+    }
+    .adv__items {
+        width: 300px;
+        height: 180px;
+    }
+
+    .popular__cards {
+        margin-left: 13px;
+    }
+}
