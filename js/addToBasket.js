@@ -6,10 +6,10 @@ function getProductById(arr, id) {
     }
 }
 
-
 export function addToBascket(arr, productFlag) {
     //add to basket
     let basketBtns;
+
     if (productFlag == 1) {
         basketBtns = document.getElementsByClassName('add__basket');
     }
@@ -19,7 +19,6 @@ export function addToBascket(arr, productFlag) {
     else {
         basketBtns = document.getElementsByClassName('popular__basket');
     }
-    
 
     if (localStorage.getItem('len') == null) {
         localStorage.setItem('len', 0);

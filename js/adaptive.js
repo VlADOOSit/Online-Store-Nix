@@ -8,8 +8,6 @@ if(document.getElementById('show__side')) {
     })
 }   
 
-
-
 document.getElementById('menu__btn').addEventListener('click', function() {
     document.querySelector('.adaptive__header').classList.toggle('header-toggle')
 })
