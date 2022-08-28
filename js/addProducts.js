@@ -1,4 +1,9 @@
+import {addToBascket} from './addToBasket.js';
+
 const maxOnPage = 9;
+document.getElementsByClassName('basket__button')[0].onclick = function() {
+    window.location.href = './basket.html'
+} 
 
 function addCard(product) {
     document.getElementsByClassName('cards')[0].innerHTML += 
@@ -25,7 +30,7 @@ function addCard(product) {
     </div>`;
 }
 
-function fillPage(arr) {
+function fillPage(arr, mainArr) {
     //add on page
     let onPageNow = 0;
     if (arr.length > maxOnPage) {
@@ -69,23 +74,23 @@ function fillPage(arr) {
                 e.target.disabled = true;
             }
         }
+        addToBascket(mainArr, true); 
     };
-
 }
-
 
 async function getProducts() {
     const response = await fetch('../js/products.json');
 
     const prodArr = await response.json();
 
-    fillPage(prodArr);
-    
+    fillPage(prodArr, prodArr);
+
     //filter
     let check = document.getElementsByTagName('input');
 
     for (let i = 0; i < check.length; i++) {
         check[i].addEventListener('click', function() {
+            
             document.getElementsByClassName('cards')[0].innerHTML = '';
             const genderChecked = document.querySelectorAll('input[name=gender]:checked');
             const typeChecked = document.querySelectorAll('input[name=type]:checked');
@@ -127,9 +132,11 @@ async function getProducts() {
                     resultArr.push(prodArr[i]);
                 }
             }
-            fillPage(resultArr);
+            fillPage(resultArr, prodArr);
+            addToBascket(prodArr, true);
         });
     }
+    addToBascket(prodArr, true);
 }
-
+    
 getProducts();

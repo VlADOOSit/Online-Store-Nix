@@ -62,7 +62,7 @@
                             <li>
                                 <button class="basket__button">
                                     <div class="basket">
-                                        <div class="count">4</div>
+                                        <div class="count" id="count">4</div>
                                         <img src="../public/img/icons/storage.png" alt="basket">
                                     </div>                                
                                     Корзина
@@ -206,7 +206,7 @@
                     <div class="compound__name">Состав:</div>
                     <div class="compound__value">100% хлопок</div>
                 </div>
-                <button class="basket__btn">В корзину</button>
+                <button class="basket__btn" id="basket_main" value="1">В корзину</button>
             </div>
         </div>
 
@@ -514,6 +514,7 @@
         </div>
     </footer>
     
+    <script type="module" src="../js/addBascketOnProdPage.js"></script>
     <script src="../js/changeImgPtoduct.js"></script>
     <script src="../js/slider.js"></script>
 </body>
