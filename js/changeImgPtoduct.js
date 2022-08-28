@@ -40,3 +40,14 @@ for (let i = 0; i < smalBlock.length; i++) {
         }
     })
 }
+
+//for check Color
+let colors = document.querySelectorAll('input[name="color"]');
+console.log(colors)
+for (let i = 0; i < colors.length; i++) {
+    colors[i].addEventListener('click', function() {
+        console.log('asdasd')
+        document.getElementsByClassName('color__value')[0].innerText = document.querySelector('input[name="color"]:checked').value;
+    });
+}
+
