@@ -472,6 +472,9 @@ header {
     margin-top: 23px;
 }
 
+.basket__btn:active {
+    transform: translateY(4px);
+}
 
 .popular__product {
     margin-top: 80px;

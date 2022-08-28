@@ -392,6 +392,10 @@ header {
     padding: 5px 0;
 }
 
+.add__basket:active {
+    transform: translateY(4px);
+}
+
 .more__btn {
     width: 100%;
     background: #FFFFFF;
@@ -670,6 +674,20 @@ header {
     margin: 0 auto;
     margin-top: 40px;
 }
+
+#show__side {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 27px rgb(0 0 0 / 25%);
+    border-radius: 36px;
+    font-size: 16px;
+    border: none;
+    padding: 5px 0;
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
 
 .product__item {
     display: flex;
